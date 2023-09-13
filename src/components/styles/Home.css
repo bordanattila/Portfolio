@@ -1,0 +1,13 @@
+.profile_img {
+    max-width: 33% !important;
+}
+
+.dev {
+    font-size: 3rem;
+    margin: 4px;
+}
+
+.homeRow {
+    text-align: center;
+    align-items: center;
+}

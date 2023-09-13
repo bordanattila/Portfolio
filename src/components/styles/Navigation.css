@@ -1,0 +1,18 @@
+.navigationbar {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* position:fixed; */
+    min-height: 5rem;
+    background-color: #222325;
+}
+
+.navbar-brand {
+    font-family: "Caveat", cursive, serif;
+    font-size: 2.6rem !important;
+    color: aqua;
+}
+
+.nav-link {
+    font-size: 1.5rem !important;
+    color: white !important;
+}
