@@ -1,6 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+#skills {
+    padding-top: 15px;
+}
+
 .skills {
+    height:100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.skills::after {
     background-image: url("../images/helloHTML.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 30%;
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /* background-color: rgba(0,0,0,0.25);
+     */
+     opacity: 0.25;
+}
+.front code {
+    color: #198754 !important;
 }

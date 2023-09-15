@@ -1,0 +1,21 @@
+.footerList li {
+    position: relative;
+    margin: 20px;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.footerList li .github {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.footerList li .linkedin {
+    font-size: 3rem;
+    color: #007bb5;
+}
+
+.footerList li .facebook {
+    font-size: 3rem;
+    color: #3B5998;
+}
