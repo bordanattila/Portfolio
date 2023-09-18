@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.212e2d0f.css",
-    "main.js": "/static/js/main.2d9e3ea1.js",
+    "main.css": "/static/css/main.d5e1310e.css",
+    "main.js": "/static/js/main.efb9d7ee.js",
     "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
     "static/media/profile_img.jpg": "/static/media/profile_img.a0023242baf475046730.jpg",
-    "static/media/helloHTML.png": "/static/media/helloHTML.fa3687f2083034080efc.png",
+    "static/media/iPhone 14 – Starlight With Shadow.png": "/static/media/iPhone 14 – Starlight With Shadow.de51d23d5ae433424d2a.png",
+    "static/media/helloHTML.png": "/static/media/helloHTML.4199e288b365f5c17b4a.png",
     "index.html": "/index.html",
-    "main.212e2d0f.css.map": "/static/css/main.212e2d0f.css.map",
-    "main.2d9e3ea1.js.map": "/static/js/main.2d9e3ea1.js.map",
+    "static/media/ppperspective.svg": "/static/media/ppperspective.f4862f487bb1f84ecff4.svg",
+    "main.d5e1310e.css.map": "/static/css/main.d5e1310e.css.map",
+    "main.efb9d7ee.js.map": "/static/js/main.efb9d7ee.js.map",
     "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.212e2d0f.css",
-    "static/js/main.2d9e3ea1.js"
+    "static/css/main.d5e1310e.css",
+    "static/js/main.efb9d7ee.js"
   ]
 }
