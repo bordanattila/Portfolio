@@ -7,7 +7,7 @@ h1 {
 }
 
 .skills {
-    height:100vh;
+    height: 100vh;
     width: 100vw;
     position: relative;
 }
@@ -23,10 +23,21 @@ h1 {
     bottom: 0px;
     left: 0px;
     right: 0px;
-    /* background-color: rgba(0,0,0,0.25);
-     */
      opacity: 0.25;
 }
-.front code {
+
+.frontEndList code {
     color: #198754 !important;
+}
+
+i {
+    font-size: 3rem;
+    margin: 4px;
+    color: rgb(104, 155, 187);
+}
+
+.skillTitle {
+    font-family:'Montserrat', sans-serif ;
+    font-weight : bold!important;;
+    text-align:start ;
 }

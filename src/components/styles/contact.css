@@ -19,3 +19,17 @@
     font-size: 3rem;
     color: #3B5998;
 }
+
+.footerList {
+    list-style-type: none;
+}
+
+.theEnd {
+    text-align: center !important ;
+}
+
+.contactAnchor {
+    padding-top: 40px;
+    margin-top: 40px;
+    color: #1c1d1f;
+  }

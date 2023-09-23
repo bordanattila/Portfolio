@@ -6,19 +6,19 @@ import "./styles/Skills.css"
 
 function Skills() {
     return (
-        <div id="skills">
-            <h1 >My Skills</h1>
-            <Container className="skills">
+        <Container id="skills" >
+            <h1 className="anchor">My Skills</h1>
+            <div className="skills">
                 <Row>
-                    <Col lg={6} className="front">
+                    <Col lg={6} className="frontEndList">
                         <Row>
-                            <Col sm={2}>
+                            <Col xs={2}>
                                 <Figure>
                                     <Figure.Image src={FrontEndImg}></Figure.Image>
                                 </Figure>
                             </Col>
                             <Col>
-                                <h3>Front End</h3>
+                                <h3 className="skillTitle">Front End</h3>
                             </Col>
                         </Row>
                         <Row justify-content="center">
@@ -42,13 +42,13 @@ function Skills() {
                     </Col>
                     <Col lg={6}>
                         <Row>
-                            <Col sm={2}>
+                            <Col xs={2}>
                                 <Figure>
                                     <Figure.Image src={BackEndImg}></Figure.Image>
                                 </Figure>
                             </Col>
                             <Col>
-                                <h3>Back End</h3>
+                                <h3 className="skillTitle">Back End</h3>
                             </Col>
                         </Row>
                         <Row>
@@ -70,9 +70,38 @@ function Skills() {
                             </Col>
                         </Row>
                     </Col>
+                    <Col >
+                        
+                            
+                        <Row className="icons">
+                        
+                            <Col>
+                            <span><i title="HTML5" className="devicon-html5-plain dev"></i></span>
+                    <span><i title="CSS3" className="devicon-css3-plain dev"></i></span>
+                    <span><i title="Bootstrap" className="devicon-bootstrap-plain dev"></i></span>
+                    <span><i title="JavaScript" className="devicon-javascript-plain dev"></i></span>
+                    <span><i title="Express.js" className="devicon-express-original dev"></i></span>
+                    <span><i title="Node.js" className="devicon-nodejs-plain dev"></i></span>
+                    <br></br>
+                    <span><i title="Handlebars" className="devicon-handlebars-plain dev"></i></span>
+                    <span><i title="React.js" className="devicon-react-original dev"></i></span>
+                    <span><i title="jQuery" className="devicon-jquery-plain dev"></i></span>
+                    <span><i title="Sequelize" className="devicon-sequelize-plain dev"></i></span>
+                    <span><i title="MySQL" className="devicon-mysql-plain-wordmark dev"></i></span>
+                    <span><i title="MongoDB" className="devicon-mongodb-plain dev"></i></span>
+                    <br></br>
+                    <span><i title="GraphQL" className="devicon-graphql-plain dev"></i></span>
+                    <span><i title="Heroku" className="devicon-heroku-original dev" ></i></span>
+                    <span><i title="Github" className="devicon-github-original dev"></i></span>
+                    <span><i title="Python" className="devicon-python-plain dev"></i></span>
+                    <span><i title="Flask" className="devicon-flask-original dev"></i></span>
+                    <span><i title="Selenium" className="devicon-selenium-original dev"></i></span>
+                            </Col>
+                        </Row>
+                    </Col>
                 </Row>
-            </Container>
-        </div>
+            </div>
+        </Container>
     );
 }
 

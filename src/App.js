@@ -8,29 +8,27 @@ import './App.css';
 import { Col, Row, Container, Image } from "react-bootstrap";
 
 function App() {
-       
+
   return (
     <>
 
-<Container className="navbarSection">
+      <section className="navbarSection">
         <NavigationBar >
         </NavigationBar>
-      </Container>
-      <Container className="homeSection">
-        <Home></Home>
-      </Container>
-      <Container className="skillsSection">
-        <Skills></Skills>
-      </Container>
-      <section id="projects">
-      <Container className="projectsSection">
-        <Projects></Projects>
-      </Container>
       </section>
-      <Container className="contactSection">
+      <section className="homeSection">
+        <Home></Home>
+      </section>
+      <section className="skillsSection">
+        <Skills></Skills>
+      </section>
+      <section className="projectsSection">
+        <Projects></Projects>
+      </section>
+      <section className="contactSection">
         <Contact></Contact>
-      </Container>
-      
+      </section>
+
     </>
 
   );

@@ -22,7 +22,33 @@ body {
   width: 100vw;
 }
 
+.skillsSection {
+  height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.skillsSection::after {
+    background-image: url("./components/images/helloHTML.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+     opacity: 0.25;
+}
+
 .navbarSection {
   height:10vh;
   width: 100vw;
+}
+
+.anchor {
+  padding-top: 40px;
+  margin-top: 40px;
+  caret-color: #1c1d1f !important;
 }

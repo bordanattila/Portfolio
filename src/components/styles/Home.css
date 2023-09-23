@@ -2,16 +2,22 @@
     max-width: 60% !important;
 }
 
-.dev {
-    font-size: 3rem;
+/* .dev {
+    font-size: 4rem;
     margin: 4px;
-}
+} */
 
 .homeRow {
     text-align: center;
     align-items: center;
     align-content: center;
     padding: 10px;
+}
+
+.homeAnchor {
+  padding-top: 40px;
+  margin-top: 40px;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 768px) {
