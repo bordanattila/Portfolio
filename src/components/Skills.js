@@ -1,27 +1,51 @@
 import React from "react";
-import { Col, Row, Container, Figure } from "react-bootstrap";
-import FrontEndImg from "./images/front-end.png";
-import BackEndImg from "./images/back-end.png";
+import { Col, Row, Container, Figure, Card } from "react-bootstrap";
+import FrontEndImg from "./images/frontend.svg";
+import BackEndImg from "./images/backend.svg";
+import DevToolImg from "./images/devtool.svg"
+import AboutMeImg from "./images/aboutme.svg"
 import "./styles/Skills.css"
+
+import heroku from "./assets/icons8-heroku-48.png";
 
 function Skills() {
     return (
         <Container id="skills" >
             <h1 className="anchor">My Skills</h1>
-            <div className="skills">
-                <Row>
-                    <Col lg={6} className="frontEndList">
-                        <Row>
-                            <Col xs={2}>
+            <div>
+                <Row className="skills justify-content-center">
+                <Col className="aboutMe" lg={4} xl={5}>
+                        <Row className="align-items-center skillsHeader">
+                            <Col>
                                 <Figure>
-                                    <Figure.Image src={FrontEndImg}></Figure.Image>
+                                    <Figure.Image className="aboutMeImg" src={AboutMeImg}></Figure.Image>
+                                </Figure>
+                            </Col>
+                            <Col>
+                                <h3 className="skillTitle">About Me</h3>
+                            </Col>
+                        </Row>
+                        <Row className="bottomBorder">
+                            <Col>
+                                <h4><code>I'm passionate about building user friendly and beautiful applications.</code></h4>
+                                <h4><code>Having an appetite for continuous learning and problem solving.</code></h4>
+                                <h4><code>I enjoy collaborating and connecting with co-workers.</code></h4>
+                                <h4><code>Looking to bring my passion and technical skills to any exciting project.</code></h4>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col lg={4} xl={6} className="frontEndList">
+                        <Row className="align-items-center skillsHeader">
+                            <Col >
+                                <Figure>
+                                    <Figure.Image className="frontEndImg" src={FrontEndImg}></Figure.Image>
                                 </Figure>
                             </Col>
                             <Col>
                                 <h3 className="skillTitle">Front End</h3>
                             </Col>
                         </Row>
-                        <Row justify-content="center">
+                        <Row className="bottomBorder">
                             <Col>
                                 <h4><code>HTML</code></h4>
                                 <h4><code>CSS</code></h4>
@@ -40,9 +64,9 @@ function Skills() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col lg={6}>
-                        <Row>
-                            <Col xs={2}>
+                    <Col className="backEndList" lg={4} xl={5}>
+                        <Row className="align-items-center skillsHeader">
+                            <Col>
                                 <Figure>
                                     <Figure.Image src={BackEndImg}></Figure.Image>
                                 </Figure>
@@ -51,7 +75,7 @@ function Skills() {
                                 <h3 className="skillTitle">Back End</h3>
                             </Col>
                         </Row>
-                        <Row>
+                        <Row className="bottomBorder">
                             <Col>
                                 <h4><code>Node.js</code></h4>
                                 <h4><code>Express.js</code></h4>
@@ -70,32 +94,26 @@ function Skills() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col >
-                        
-                            
-                        <Row className="icons">
-                        
+                    <Col className="devToolList" lg={4} xl={5}>
+                        <Row className="align-items-center skillsHeader">
                             <Col>
-                            <span><i title="HTML5" className="devicon-html5-plain dev"></i></span>
-                    <span><i title="CSS3" className="devicon-css3-plain dev"></i></span>
-                    <span><i title="Bootstrap" className="devicon-bootstrap-plain dev"></i></span>
-                    <span><i title="JavaScript" className="devicon-javascript-plain dev"></i></span>
-                    <span><i title="Express.js" className="devicon-express-original dev"></i></span>
-                    <span><i title="Node.js" className="devicon-nodejs-plain dev"></i></span>
-                    <br></br>
-                    <span><i title="Handlebars" className="devicon-handlebars-plain dev"></i></span>
-                    <span><i title="React.js" className="devicon-react-original dev"></i></span>
-                    <span><i title="jQuery" className="devicon-jquery-plain dev"></i></span>
-                    <span><i title="Sequelize" className="devicon-sequelize-plain dev"></i></span>
-                    <span><i title="MySQL" className="devicon-mysql-plain-wordmark dev"></i></span>
-                    <span><i title="MongoDB" className="devicon-mongodb-plain dev"></i></span>
-                    <br></br>
-                    <span><i title="GraphQL" className="devicon-graphql-plain dev"></i></span>
-                    <span><i title="Heroku" className="devicon-heroku-original dev" ></i></span>
-                    <span><i title="Github" className="devicon-github-original dev"></i></span>
-                    <span><i title="Python" className="devicon-python-plain dev"></i></span>
-                    <span><i title="Flask" className="devicon-flask-original dev"></i></span>
-                    <span><i title="Selenium" className="devicon-selenium-original dev"></i></span>
+                                <Figure>
+                                    <Figure.Image className="devToolsImg" src={DevToolImg}></Figure.Image>
+                                </Figure>
+                            </Col>
+                            <Col>
+                                <h3 className="skillTitle">Dev Tools</h3>
+                            </Col>
+                        </Row>
+                        <Row className="bottomBorder">
+                            <Col>
+                                <h4><code>GitHub</code></h4>
+                                <h4><code>Atom</code></h4>
+                                <h4><code>VSCode</code></h4>
+                                <h4><code>PyCharm</code></h4>
+                                <h4><code>Thony</code></h4>
+                                <h4><code>Insomnia</code></h4>
+                                <h4><code>Local</code></h4>
                             </Col>
                         </Row>
                     </Col>

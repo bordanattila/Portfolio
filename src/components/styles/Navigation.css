@@ -1,12 +1,26 @@
 .navigationbar {
     min-height: 5rem;
     background-color: #222325;
+    /* From https://css.glass */
+    padding: 10px;
+    margin: 0 20px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .navbar-brand {
     font-family: "Caveat", cursive, serif;
     font-size: 2.6rem !important;
-    color: aqua;
+    color: #9EDDFF;
+    display: inline-block;
+    position: relative;
+    /* -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px; */
 }
 
 .nav-link {
@@ -15,21 +29,15 @@
 }
 
 .navbar-toggler {
-    border-color: white !important;
+    border-color: #a6f6ff !important;
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(166, 246, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
 .navbar-brand:hover {
-    color: #66d9ed;
-}
-
-.navbar-brand {
-    display: inline-block;
-    position: relative;
-    color: aqua;
+    color: #A6F6FF;
 }
 
 .navbar-brand::after {
@@ -40,7 +48,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #66d9ed;
+    background-color: #A6F6FF;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }

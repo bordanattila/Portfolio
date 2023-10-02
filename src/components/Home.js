@@ -3,48 +3,34 @@ import ProfilePicture from "./images/profile_img.jpg";
 import "./styles/Home.css"
 import { Col, Row, Container, Image } from "react-bootstrap";
 
+import Video from "./assets/homeSectionVideo.mp4";
+
 function Home() {
     return (
-<div>
-<div id="home"></div>
-<h1 className="homeAnchor">Home</h1>
-        <Container>
-
-            <Row className="homeRow">
-                <Col lg={6}>
-                    <h1 className="text-center anchor">Attila Bordán</h1>
-                    <h3>Full Stack Web Developer</h3>
-                    <span><i title="HTML5" className="devicon-html5-plain dev"></i></span>
-                    <span><i title="CSS3" className="devicon-css3-plain dev"></i></span>
-                    <span><i title="Bootstrap" className="devicon-bootstrap-plain dev"></i></span>
-                    <span><i title="JavaScript" className="devicon-javascript-plain dev"></i></span>
-                    <span><i title="Express.js" className="devicon-express-original dev"></i></span>
-                    <span><i title="Node.js" className="devicon-nodejs-plain dev"></i></span>
-                    <br></br>
-                    <span><i title="Handlebars" className="devicon-handlebars-plain dev"></i></span>
-                    <span><i title="React.js" className="devicon-react-original dev"></i></span>
-                    <span><i title="jQuery" className="devicon-jquery-plain dev"></i></span>
-                    <span><i title="Sequelize" className="devicon-sequelize-plain dev"></i></span>
-                    <span><i title="MySQL" className="devicon-mysql-plain-wordmark dev"></i></span>
-                    <span><i title="MongoDB" className="devicon-mongodb-plain dev"></i></span>
-                    <br></br>
-                    <span><i title="GraphQL" className="devicon-graphql-plain dev"></i></span>
-                    <span><i title="Heroku" className="devicon-heroku-original dev" ></i></span>
-                    <span><i title="Github" className="devicon-github-original dev"></i></span>
-                    <span><i title="Python" className="devicon-python-plain dev"></i></span>
-                    <span><i title="Flask" className="devicon-flask-original dev"></i></span>
-                    <span><i title="Selenium" className="devicon-selenium-original dev"></i></span>
-                </Col>
-                <Col lg={6}>
-                    <Image className="profile_img  " src={ProfilePicture} alt={"Profile picture"} rounded />
-                </Col>
-            </Row>
+        <div>
         
-        <Container>
+            <div id="home"></div>
+            <h1 className="homeAnchor">Home</h1>
+            <section className="background">
 
-        <p class="scroll-down"><a href="#complements" class="animate">More</a></p>
-        </Container>
-        </Container>
+            <video autoPlay loop muted id="video">
+            <source src={Video} type='video/mp4' />
+            </video>
+            </section>
+            <Container className="homeContainer">
+                <Row className="homeRow">
+                    <Col lg={8}>
+                        <h1 className="myName anchor">Attila Bordán</h1>
+                        <h3 className="jobTitle">Full Stack Web Developer</h3>
+                    </Col>
+                    <Col lg={4}>
+                        <Image className="profile_img  " src={ProfilePicture} alt={"Profile picture"} rounded />
+                    </Col>
+                </Row>
+                {/* </Container>
+        <Container> */}
+                <p className="scroll-down"><a href="#complements" class="animate">More</a></p>
+            </Container>
 
         </div>
     );

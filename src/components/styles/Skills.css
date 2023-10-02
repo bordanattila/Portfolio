@@ -1,43 +1,58 @@
 h1 {
     text-align: center;
-}
-
-#skills {
-    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .skills {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
+    gap:10px;
+    padding: 0 5px;
 }
-
-.skills::after {
-    background-image: url("../images/helloHTML.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 30%;
-    content: "";
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-     opacity: 0.25;
+#skills {
+    padding-top: 15px;
 }
 
 .frontEndList code {
     color: #198754 !important;
 }
 
-i {
-    font-size: 3rem;
-    margin: 4px;
-    color: rgb(104, 155, 187);
+.devToolList code {
+    color: #20afd3 !important;
+}
+
+.aboutMe code {
+    color: #e6d70a !important;
+}
+
+.frontEndList, .backEndList, .devToolList, .aboutMe {
+    text-align: center;
+}
+
+.frontEndImg, .aboutMeImg {
+    max-width: 60% !important;
+}
+
+.devToolsImg {
+    height: 100% !important;
 }
 
 .skillTitle {
     font-family:'Montserrat', sans-serif ;
-    font-weight : bold!important;;
-    text-align:start ;
+    font-weight : bold !important;
+}
+
+.skillsHeader {
+    border-top: solid 2px whitesmoke;
+    border-left: solid 2px whitesmoke;
+    border-right: solid 2px whitesmoke;
+}
+
+
+.bottomBorder {
+    border-bottom: solid 2px whitesmoke;
+    border-left: solid 2px whitesmoke;
+    border-right: solid 2px whitesmoke;
+}
+
+.figure {
+    padding-top: 8px;
 }

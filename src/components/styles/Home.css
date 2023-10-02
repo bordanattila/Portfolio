@@ -1,11 +1,44 @@
+video {
+  -o-object-fit: center;
+  object-fit: contain;
+  height: 100vh;
+  width: 100vw;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
 .profile_img {
     max-width: 60% !important;
 }
 
-/* .dev {
-    font-size: 4rem;
-    margin: 4px;
-} */
+.myName {
+  font-size :10vh ;
+  font-family: "Outfit", "Lucida";
+}
+
+.jobTitle {
+  font-size: 35px;
+  font-family: 'Martian Mono', monospace, 'Lucida Sans';
+}
+
+.myName, .jobTitle {
+  color: #fff;
+}
+/* #66d9ed  */
+
+.homeContainer {
+  position: relative;
+  z-index: 10;
+}
 
 .homeRow {
     text-align: center;
@@ -15,8 +48,7 @@
 }
 
 .homeAnchor {
-  padding-top: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   visibility: hidden;
 }
 
@@ -152,12 +184,12 @@
     }
   }
   body {
-    background-color: #0d74ff;
+    background-color: #fff;
   }
   
   .scroll-down {
     margin: 0;
-    border: 2px solid #fff;
+    border: 2px solid #fff ;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
