@@ -3,7 +3,7 @@ import ProfilePicture from "./images/profile_img.jpg";
 import "./styles/Home.css"
 import { Col, Row, Container, Image } from "react-bootstrap";
 
-import Video from "./assets/homeSectionVideo.mp4";
+import Video from "./video/homeSectionVideo.mp4";
 
 function Home() {
     return (

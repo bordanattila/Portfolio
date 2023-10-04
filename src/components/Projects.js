@@ -1,14 +1,18 @@
 import React from "react";
 import "./styles/Projects.css";
-import prima from "./assets/primaMateria.png";
-import techBlog from "./assets/techBlog.png";
+import prima from "./images/primaMateria.png";
+import techBlog from "./images/techBlog.png";
 import { Container, Row, Col } from "react-bootstrap";
+import Showcase from "./Carousel";
 
 function Projects() {
     return (
 
         <div id="projects">
-            <h1 className="text-center anchor">My Projects</h1>
+            {/* <h1 className="text-center anchor">My Projects</h1> */}
+            <Container className="showcase">
+                <Showcase />
+            </Container>
             <Container className="row2">
                 <Col>
                     <Row className="align-items-center">

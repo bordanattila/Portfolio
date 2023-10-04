@@ -3,9 +3,8 @@ import NavigationBar from "./components/Navigation";
 import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Projects from './components/Projects';
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
 import './App.css';
-import { Col, Row, Container, Image } from "react-bootstrap";
 
 function App() {
 

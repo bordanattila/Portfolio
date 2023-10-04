@@ -9,3 +9,8 @@
 .techBlog {
     max-width: 100% !important;
 }
+
+.showcase {
+    height: 500px;
+    padding-top: 90px;
+}

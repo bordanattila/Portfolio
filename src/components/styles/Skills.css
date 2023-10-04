@@ -8,11 +8,11 @@ h1 {
     padding: 0 5px;
 }
 #skills {
-    padding-top: 15px;
+    padding: 15px 0;
 }
 
 .frontEndList code {
-    color: #198754 !important;
+    color: #2ece83 !important;
 }
 
 .devToolList code {
@@ -25,6 +25,7 @@ h1 {
 
 .frontEndList, .backEndList, .devToolList, .aboutMe {
     text-align: center;
+    background-color: #3a3c41;
 }
 
 .frontEndImg, .aboutMeImg {
@@ -56,3 +57,4 @@ h1 {
 .figure {
     padding-top: 8px;
 }
+
