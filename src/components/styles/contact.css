@@ -1,3 +1,7 @@
+.footerIcon {
+    padding: 10px;
+}
+
 .footerList li {
     position: relative;
     margin: 20px;
@@ -5,31 +9,26 @@
     cursor: pointer;
 }
 
-.footerList li .github {
+.footerList .github {
     font-size: 3rem;
     color: #fff;
 }
 
-.footerList li .linkedin {
+.footerList .linkedin {
     font-size: 3rem;
     color: #007bb5;
 }
 
-.footerList li .facebook {
+.footerList .facebook {
     font-size: 3rem;
     color: #3B5998;
 }
 
 .footerList {
-    list-style-type: none;
+    align-content: space-around;
 }
-
-.theEnd {
-    text-align: center !important ;
-}
-
 .contactAnchor {
     padding-top: 40px;
     margin-top: 40px;
     color: #1c1d1f;
-  }
+}

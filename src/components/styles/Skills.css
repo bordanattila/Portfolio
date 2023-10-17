@@ -26,35 +26,23 @@ h1 {
 .frontEndList, .backEndList, .devToolList, .aboutMe {
     text-align: center;
     background-color: #3a3c41;
+    border: solid 2px whitesmoke;
+    max-width: 95vw;
 }
 
 .frontEndImg, .aboutMeImg {
     max-width: 60% !important;
 }
 
-.devToolsImg {
+/* .devToolsImg {
     height: 100% !important;
-}
+} */
 
 .skillTitle {
     font-family:'Montserrat', sans-serif ;
     font-weight : bold !important;
 }
 
-.skillsHeader {
-    border-top: solid 2px whitesmoke;
-    border-left: solid 2px whitesmoke;
-    border-right: solid 2px whitesmoke;
-}
-
-
-.bottomBorder {
-    border-bottom: solid 2px whitesmoke;
-    border-left: solid 2px whitesmoke;
-    border-right: solid 2px whitesmoke;
-}
-
 .figure {
     padding-top: 8px;
 }
-

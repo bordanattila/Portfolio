@@ -1,5 +1,5 @@
-import React, { useRef } from "react";
-import { Col, Row, Container, Figure, Card } from "react-bootstrap";
+import React from "react";
+import { Col, Row, Container, Figure } from "react-bootstrap";
 import FrontEndImg from "./images/frontend.svg";
 import BackEndImg from "./images/backend.svg";
 import DevToolImg from "./images/devtool.svg";
@@ -14,9 +14,9 @@ function Skills() {
     return (
         <Container id="skills" >
             <h1 className="anchor">  ---   About Me   ---   </h1>
-            <div>
+            {/* <div> */}
                 <Row className="skills justify-content-center">
-                    <Col className="aboutMe" lg={4} xl={5}>
+                    <Col className="aboutMe" lg={4} xl={6}>
                         <Row className="align-items-center skillsHeader">
                             <Col>
                                 <Figure>
@@ -38,7 +38,7 @@ function Skills() {
                             </Col>
                         </Row>
                     </Col>
-                    <Col lg={4} xl={6} className="frontEndList">
+                    <Col lg={4}  className="frontEndList">
                         <Row className="align-items-center skillsHeader">
                             <Col >
                                 <Figure>
@@ -132,7 +132,7 @@ function Skills() {
                         </Row>
                     </Col>
                 </Row>
-            </div>
+            {/* </div> */}
         </Container>
     );
 }

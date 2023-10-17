@@ -29,7 +29,7 @@ function Home() {
                 </Row>
                 {/* </Container>
         <Container> */}
-                <p className="scroll-down"><a href="#complements" class="animate">More</a></p>
+                <p className="scroll-down"><a href="#complements" className="animate">More</a></p>
             </Container>
 
         </div>
