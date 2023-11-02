@@ -1,3 +1,7 @@
+.contact, .contacth2, .contacth3, .copyright {
+    color: #000;
+}
+
 .footerIcon {
     padding: 10px;
 }
@@ -11,7 +15,7 @@
 
 .footerList .github {
     font-size: 3rem;
-    color: #fff;
+    color: #000 ;
 }
 
 .footerList .linkedin {
@@ -27,8 +31,8 @@
 .footerList {
     align-content: space-around;
 }
-.contactAnchor {
+/* .contactAnchor {
     padding-top: 40px;
     margin-top: 40px;
     color: #1c1d1f;
-}
+} */

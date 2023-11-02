@@ -1,6 +1,7 @@
-h1 {
+.about {
     text-align: center;
     padding-bottom: 10px;
+    color: #000;
 }
 
 .skills {
@@ -11,32 +12,54 @@ h1 {
     padding: 15px 0;
 }
 
+.aboutMe code {
+    color: #e6d70a;
+}
+
+.educationList code {
+    color:#2976a3;
+}
+
 .frontEndList code {
-    color: #2ece83 !important;
+    color: #2ece83;
 }
 
 .devToolList code {
-    color: #20afd3 !important;
+    color: #20afd3;
 }
 
-.aboutMe code {
-    color: #e6d70a !important;
-}
-
-.frontEndList, .backEndList, .devToolList, .aboutMe {
+.aboutMe, .educationList, .frontEndList, .backEndList, .devToolList {
     text-align: center;
-    background-color: #3a3c41;
-    border: solid 2px whitesmoke;
+    background-color: #7e7979;
+    /* border: solid 2px #000; */
     max-width: 95vw;
+}
+
+.aboutMe {
+    border: solid 4px #e6d70a;
+}
+
+.educationList {
+    border: solid 4px #2976a3;
+    background-color: #3a3838;
+}
+
+.frontEndList {
+    border: solid 4px #2ece83;
+}
+
+.backEndList{
+    border: solid 4px #d63384;
+    background-color: #3a3838;
+}
+
+.devToolList {
+    border: solid 4px #20afd3;
 }
 
 .frontEndImg, .aboutMeImg {
     max-width: 60% !important;
 }
-
-/* .devToolsImg {
-    height: 100% !important;
-} */
 
 .skillTitle {
     font-family:'Montserrat', sans-serif ;
@@ -46,3 +69,4 @@ h1 {
 .figure {
     padding-top: 8px;
 }
+

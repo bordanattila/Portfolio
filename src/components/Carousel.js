@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles/Carousel.css";
-import PrimaMateria from "./images/prima-materia-home.jpg";
-import techBlog from "./images/techBlog2.png";
-import TextEditor from "./images/textEditor.png";
-import Weather from "./images/weatherDashboard.png";
-import Scheduler from "./images/workDayScheduler.png";
-import NoteTaker from "./images/noteTaker.png";
-import Egaugnal from "./images/egaugnal.png";
-import Title from "./images/projectsTitle.png";
+import PrimaMateria from "./assets/images/prima-materia-home.png";
+import techBlog from "./assets/images/techBlog.png";
+import TextEditor from "./assets/images/textEditor.png";
+import Weather from "./assets/images/weatherDashboard.png";
+import Scheduler from "./assets/images/workDayScheduler.png";
+import NoteTaker from "./assets/images/noteTaker.png";
+import Egaugnal from "./assets/images/egaugnal.png";
+import Title from "./assets/images/projectsTitle.png";
 
 import { Col, Row, Container, Figure, Card } from "react-bootstrap";
 

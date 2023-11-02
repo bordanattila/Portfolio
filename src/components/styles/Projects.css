@@ -1,16 +1,135 @@
+p {
+    color: #fff;
+}
+
 #projects {
     padding-top: 15px;
+    font-size: 24px;
 }
 
-.prima {
+.projects {
+    color: #fff;
+    text-align: center;
+}
+
+.prima,
+.techBlog,
+.egaugnal {
     max-width: 100% !important;
 }
 
-.techBlog {
-    max-width: 100% !important;
+@media screen and (min-width: 1024px) {
+
+    .prima,
+    .techBlog,
+    .egaugnal {
+        max-width: 100% !important;
+        opacity: 50%;
+    }
+
+    .prima:hover,
+    .techBlog:hover,
+    .egaugnal:hover {
+        opacity: 100%;
+    }
 }
 
 .showcase {
     height: 500px;
     padding-top: 90px;
+}
+
+.project_img {
+    width: 100%;
+}
+
+.otherProjects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    align-items: start;
+    text-align: center;
+}
+
+.project-card {
+    background-color: rgb(70, 75, 73);
+}
+
+.glowBorder {
+    padding: 0.6em 2em;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glowBorder:before {
+    content: "";
+    background: linear-gradient(45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowingglowBorder 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+@keyframes glowingglowBorder {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/* .glowBorder:active {
+    color: #000;
+  }
+  
+  .glowBorder:active:after {
+    background: transparent;
+  } */
+
+.glowBorder:hover:before {
+    opacity: 1;
+}
+
+.glowBorder:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
 }
