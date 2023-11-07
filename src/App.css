@@ -16,13 +16,13 @@ body {
 /* #1c1d1f */
 
 .homeSection {
-  height: 100vh;
+  /* height: 100vh;
   width: 100vw;
   background-color: #000;
   background-image: url(./components/assets/images/main_background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
 }
 
 .projectsSection {
@@ -39,14 +39,14 @@ body {
 }
 
 @media screen and (max-width:425px) {
-  .homeSection {
+  /* .homeSection {
     background-image: url(./components/assets/images/main_background_mobile.png);
     background-position: center;
     background-size: contain;
     width: auto;
-  }
+  } */
   .scroll-down {
-    margin-top: 50px;
+    margin-top: 0.1rem;
   }
 }
 
