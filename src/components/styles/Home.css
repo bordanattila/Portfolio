@@ -5,6 +5,10 @@ video {
   width: 100vw;
 }
 
+.main_img {
+  width: 100vw;
+}
+
 .background {
   height: 100%;
   width: 100%;
@@ -37,7 +41,9 @@ video {
 
 .homeContainer {
   position: relative;
-  z-index: 10;
+  z-index: 10;  
+  width: 100vw !important;
+  height: 100vh !important;
 }
 
 .homeRow {
@@ -202,7 +208,7 @@ video {
     width: 100px;
     height: 100px;
     margin-left: -50px;
-    margin-top: 50px;
+    margin-top: 525px;
   }
   .scroll-down a {
     display: block;

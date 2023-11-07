@@ -4,8 +4,9 @@ import BackEndImg from "../components/assets/images/backend.svg";
 import DevToolImg from "../components/assets/images/devtool.svg";
 import AboutMeImg from "../components/assets/images/aboutme.svg";
 import Education from "../components/assets/images/education.svg";
+import resumePDF from "../components/assets/resume/Attila_Bordan_resume.pdf";
 import "../components/styles/Skills.css";
-import { Col, Row, Container, Figure } from "react-bootstrap";
+import { Col, Row, Container, Figure, Tooltip, OverlayTrigger } from "react-bootstrap";
 import { LightSpeed } from "react-reveal";
 
 
@@ -34,6 +35,11 @@ function Skills() {
                                     <h4><code>Having an appetite for continuous learning and problem solving.</code></h4>
                                     <h4><code>I enjoy collaborating and connecting with co-workers.</code></h4>
                                     <h4><code>Looking to bring my passion and technical skills to any exciting project.</code></h4>
+                                    <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Download Resume</Tooltip>}>
+                                    <a href={resumePDF} download="../components/assets/resume/Attila_Bordan_Resume.pdf" target='_blank'>
+                                    <i class="fa-solid fa-cloud-arrow-down"></i>
+                                    </a>
+                                    </OverlayTrigger>
                                 </LightSpeed>
                             </Col>
                         </Row>

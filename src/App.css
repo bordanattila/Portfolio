@@ -16,25 +16,38 @@ body {
 /* #1c1d1f */
 
 .homeSection {
-  /* background-image: url("./components/images/space.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
   height: 100vh;
   width: 100vw;
   background-color: #000;
+  background-image: url(./components/assets/images/main_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.projectsSection{
+.projectsSection {
   background-color: #000;
 }
 
-.skillsSection, .contactSection {
-  background-color: #dfdfe2;
+.skillsSection,
+.contactSection {
+  /* background-color: #dfdfe2; */
 }
 
 .contactSection {
   text-align: center;
+}
+
+@media screen and (max-width:425px) {
+  .homeSection {
+    background-image: url(./components/assets/images/main_background_mobile.png);
+    background-position: center;
+    background-size: contain;
+    width: auto;
+  }
+  .scroll-down {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (min-width:992px) {

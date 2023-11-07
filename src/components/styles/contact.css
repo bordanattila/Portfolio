@@ -1,5 +1,5 @@
 .contact, .contacth2, .contacth3, .copyright {
-    color: #000;
+    color: #fff;
 }
 
 .footerIcon {
@@ -15,7 +15,7 @@
 
 .footerList .github {
     font-size: 3rem;
-    color: #000 ;
+    color: #fff ;
 }
 
 .footerList .linkedin {

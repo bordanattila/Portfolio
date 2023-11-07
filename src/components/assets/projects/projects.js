@@ -1,8 +1,9 @@
 // props for the Project component
 import Weather_Dashboard from "../images/weatherDashboard.png";
 import Work_Day_Scheduler from "../images/workDayScheduler.png";
-import Note_Taker from "../images/noteTaker.png"
-import Text_Editor from "../images/textEditor.png"
+import Note_Taker from "../images/noteTaker.png";
+import Text_Editor from "../images/textEditor.png";
+import Snake_Game from "../images/snake_game.png";
 
 const projects = [
     {
@@ -32,6 +33,13 @@ const projects = [
         description: "A front-end application powered by OpenWeather API. Users can look up weather forecast for any travel destination. It uses the local storage to store the search history.",
         repo: "http://github.com/bordanattila/Weather_Dashboard",
         deployed: "http://bordanattila.github.io/Weather_Dashboard"
+    },
+    {
+        imageSource: Snake_Game,
+        projectName: "Snake Game",
+        description: "This is an application that imitates the famous Nokia snake game on computer. The interface was created with Turtle.",
+        repo: "https://github.com/bordanattila/Snake-Game",
+        deployed: "Not deployed"
     },
 ];
 
