@@ -45,16 +45,16 @@ p {
 
 .otherProjects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 25px;
     grid-row-gap: 25px;
-    align-items: start;
     text-align: center;
 }
 
 .project-card {
-    background-color: rgb(70, 75, 73);
+    /* background-color: rgb(70, 75, 73); */
+    background-image: linear-gradient(rgb(231, 14, 148), rgb(70, 75,73), rgb(70, 75,73));
 }
 
 .glowBorder {

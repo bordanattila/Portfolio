@@ -66,7 +66,7 @@ class Home extends React.Component {
     }
 
     updatePredicate() {
-        this.setState({ isDesktop: window.innerWidth > 768 });
+        this.setState({ isDesktop: window.innerWidth > 992 });
     }
 
     render() {
@@ -82,6 +82,7 @@ class Home extends React.Component {
                 ) : (
                     <div id="mobile">
                         <h1 className="homeAnchor">Home</h1>
+                        <img className="profile_image" src={main_mobile} alt="project homepage"></img>
                         <p className="scroll-down"><a href="#complements" className="animate">More</a></p>
                     </div>
                 )

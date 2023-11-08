@@ -38,27 +38,17 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width:425px) {
-  /* .homeSection {
-    background-image: url(./components/assets/images/main_background_mobile.png);
-    background-position: center;
-    background-size: contain;
-    width: auto;
-  } */
-  .scroll-down {
-    margin-top: 0.1rem;
-  }
-}
-
 @media screen and (min-width:992px) {
-
+  .navbarSection {
+    height: 10vh;
+    width: 100vw;
+  }
   .skillsSection {
     min-height: 60vh !important;
   }
 }
 
 .navbarSection {
-  height: 10vh;
   width: 100vw;
 }
 
