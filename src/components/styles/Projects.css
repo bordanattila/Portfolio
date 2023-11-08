@@ -8,8 +8,9 @@ p {
 }
 
 .projects {
-    color: #fff;
+    color: #9EDDFF;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .prima,
@@ -53,8 +54,24 @@ p {
 }
 
 .project-card {
-    /* background-color: rgb(70, 75, 73); */
-    background-image: linear-gradient(rgb(231, 14, 148), rgb(70, 75,73), rgb(70, 75,73));
+    background-image: linear-gradient(#6499E9, #232D3F);
+}
+
+.projectPadding {
+    padding: 10px;
+}
+
+.projectName {
+    font-size: 1em;
+    color: #fff;
+}
+
+.title {
+    color: #6499E9;
+}
+
+.tech {
+    color: #A6F6FF;
 }
 
 .glowBorder {
@@ -62,7 +79,7 @@ p {
     margin: 10px 0;
     border: none;
     outline: none;
-    color: rgb(255, 255, 255);
+    color: #fff;
     background: #111;
     cursor: pointer;
     position: relative;
@@ -109,14 +126,6 @@ p {
         background-position: 0 0;
     }
 }
-
-/* .glowBorder:active {
-    color: #000;
-  }
-  
-  .glowBorder:active:after {
-    background: transparent;
-  } */
 
 .glowBorder:hover:before {
     opacity: 1;

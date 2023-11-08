@@ -1,37 +1,5 @@
-body {
-  background-position: center;
-  background-repeat: no-repeat;
-  /* background-color: #3a3c41; */
-  /* padding-top: 40px !important; */
-  /* scroll-padding-top: 40px !important; */
-  color: azure;
-  /* margin: 0; */
-  /* height: 100%;
-  width: 100%; */
-  padding: 0;
-}
-
-
-
-/* #1c1d1f */
-
-.homeSection {
-  /* height: 100vh;
-  width: 100vw;
-  background-color: #000;
-  background-image: url(./components/assets/images/main_background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
-}
-
 .projectsSection {
   background-color: #000;
-}
-
-.skillsSection,
-.contactSection {
-  /* background-color: #dfdfe2; */
 }
 
 .contactSection {
@@ -55,5 +23,4 @@ body {
 .anchor {
   padding-top: 40px;
   margin-top: 40px;
-  caret-color: #3a3c41 !important;
 }

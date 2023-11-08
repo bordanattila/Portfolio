@@ -10,9 +10,9 @@ const PreLoader = () => {
           height="80"
           viewBox="0 0 196 313"
           fill=""
-          xmlns="http://www.w3.org/2000/svg"
+          xmlns="http://www.w3.org/1999/xlink"
         >
-          <title>Loader</title>
+          <title>feeling_proud</title>
           <defs>
             <linearGradient id="ttb" y2="1">
 

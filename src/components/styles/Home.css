@@ -1,21 +1,3 @@
-video {
-  -o-object-fit: center;
-  object-fit: contain;
-  height: 100vh;
-  width: 100vw;
-}
-
-.background {
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  overflow: hidden;
-}
-
 #home {
   height: 100vh;
   width: 100vw;
@@ -27,13 +9,7 @@ video {
 }
 
 #mobile {
-  /* height: 100vh; */
-  /* width: 100vw; */
   background-color: #000;
-  /* background-image: url(../assets/images/main_background_mobile.png); */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -41,59 +17,15 @@ video {
     grid-row-gap: 0px;
 }
 
-.main_img {
-  max-width: 70% !important;
-  margin-left: auto;  
-  margin-right: auto;
-  text-align: center;
+.homeAnchor {
+  visibility: hidden;
 }
 
 .profile_image {
   max-width: 100%;
 }
 
-.profile_img {
-    max-width: 60% !important;
-}
-
-.myName {
-  font-size :10vh ;
-  font-family: "Outfit", "Lucida";
-}
-
-.jobTitle {
-  font-size: 35px;
-  font-family: 'Martian Mono', monospace, 'Lucida Sans';
-}
-
-.myName, .jobTitle {
-  color: #fff;
-}
-/* #66d9ed  */
-
-.homeContainer {
-  position: relative;
-  z-index: 10;  
-  width: 100vw !important;
-  height: 100vh !important;
-}
-
-.homeRow {
-    text-align: center;
-    padding: 25px 10px;
-}
-
-.homeAnchor {
-  visibility: hidden;
-}
-
-@media screen and (max-width:992px) {
-  /* .homeSection {
-    background-image: url(./components/assets/images/main_background_mobile.png);
-    background-position: center;
-    background-size: contain;
-    width: auto;
-  } */
+@media screen and (max-width:992px) { 
   .scroll-down {
     margin-top: -50% !important;
   }

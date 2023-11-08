@@ -18,7 +18,7 @@ function Skills() {
             {/* <div> */}
                 <Row className="skills justify-content-center">
                     <Col className="aboutMe" lg={4} xl={6}>
-                        <Row className="align-items-center skillsHeader">
+                        <Row className="align-items-center">
                             <Col>
                                 <Figure>
                                     <Figure.Image className="aboutMeImg" src={AboutMeImg}></Figure.Image>
@@ -28,7 +28,7 @@ function Skills() {
                                 <h3 className="skillTitle">About Me</h3>
                             </Col>
                         </Row>
-                        <Row className="bottomBorder">
+                        <Row className="skillText">
                             <Col>
                                 <LightSpeed duration={1500} left >
                                     <h4><code>I'm passionate about building user friendly and beautiful applications.</code></h4>
@@ -55,7 +55,7 @@ function Skills() {
                                 <h3 className="skillTitle">Education</h3>
                             </Col>
                         </Row>
-                        <Row className="bottomBorder">
+                        <Row className="skillText">
                             <Col>
                                 <LightSpeed duration={1500} left>
                                     <h4><code>Louisiana State University - AWS Solution Architect</code></h4>
@@ -65,16 +65,6 @@ function Skills() {
                                     
                                 </LightSpeed>
                             </Col>
-                            {/* <Col>
-                                <LightSpeed duration={1500} right>
-                                    <h4><code>jQuery</code></h4>
-                                    <h4><code>React</code></h4>
-                                    <h4><code>Flask</code></h4>
-                                    <h4><code>Jinja</code></h4>
-                                    <h4><code>Selenium</code></h4>
-                                    <h4><code>WordPress</code></h4>
-                                </LightSpeed>
-                            </Col> */}
                         </Row>
                     </Col>
                     <Col lg={3}  className="frontEndList">
@@ -88,7 +78,7 @@ function Skills() {
                                 <h3 className="skillTitle">Front End</h3>
                             </Col>
                         </Row>
-                        <Row className="bottomBorder">
+                        <Row className="skillText">
                             <Col>
                                 <LightSpeed duration={1500} left>
                                     <h4><code>HTML</code></h4>
@@ -122,7 +112,7 @@ function Skills() {
                                 <h3 className="skillTitle">Back End</h3>
                             </Col>
                         </Row>
-                        <Row className="bottomBorder">
+                        <Row className="skillText">
                             <Col>
                                 <LightSpeed duration={1500} left>
                                     <h4 className="test"><code>Node.js</code></h4>
@@ -156,7 +146,7 @@ function Skills() {
                                 <h3 className="skillTitle">Dev Tools</h3>
                             </Col>
                         </Row>
-                        <Row className="bottomBorder">
+                        <Row className="skillText">
                             <Col>
                                 <LightSpeed duration={1500} right>
                                     <h4><code>GitHub</code></h4>
@@ -172,7 +162,6 @@ function Skills() {
                         </Row>
                     </Col>
                 </Row>
-            {/* </div> */}
         </Container>
     );
 }

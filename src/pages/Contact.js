@@ -10,9 +10,10 @@ function Contact() {
 <>
 
         <div id="contact">
-            <h1 className="contactAnchor contact">Get In Touch</h1>
+            <h1 className="contactAnchor">Get In Touch</h1>
             <div className="footerList">
-                <h2 className="contacth2">You can reach me via email <a href="mailto:bordanattila007@gmail.com">here</a></h2>
+                <h2 className="contacth2">You can reach me via 📧 </h2>
+                <a href="mailto:bordanattila007@gmail.com"><button class="btn-hover btn">Say Hi</button></a>
                 <h3 className="contacth3">Here are some links if you would like to get social</h3>
                 {/* <ul className="footerList">
                     <li> */}
