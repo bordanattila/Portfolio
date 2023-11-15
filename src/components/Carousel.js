@@ -7,7 +7,7 @@ import Weather from "./assets/images/weatherDashboard.png";
 import Scheduler from "./assets/images/workDayScheduler.png";
 import NoteTaker from "./assets/images/noteTaker.png";
 import Egaugnal from "./assets/images/egaugnal.png";
-import Title from "./assets/images/projectsTitle.png";
+import Snake from "./assets/images/snake_game.png";
 
 import { Col, Row, Container, Figure, Card } from "react-bootstrap";
 
@@ -21,7 +21,7 @@ function Showcase () {
     <span id="img5" ><img src={Scheduler}></img></span>
     <span id="img6"><img src={Egaugnal}></img></span>
     <span id="img7"><img src={NoteTaker}></img></span>
-    <span id="img8"><img src={Title}></img></span>
+    <span id="img8"><img src={Snake}></img></span>
 </Container>
     )
 }
