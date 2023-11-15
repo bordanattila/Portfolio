@@ -15,12 +15,10 @@
 
 .navbar-brand {
     font-family: "Outfit", cursive, serif;
-    font-size: 2.6rem !important;
+    font-size: 2.6rem;
     color: #9EDDFF;
     display: inline-block;
     position: relative;
-    /* -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 1px; */
 }
 
 .nav-link {

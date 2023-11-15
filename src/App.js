@@ -17,7 +17,7 @@ function App() {
     const fakeDataFetch = () => {
       setTimeout(() => {
         setIsLoading(false);
-      }, 4000);
+      }, 8500);
     };
 
     fakeDataFetch();
@@ -26,24 +26,24 @@ function App() {
   return isLoading ? (
     <PreLoader />
   ) : (
-<>
-          <section className="navbarSection">
-            <NavigationBar >
-            </NavigationBar>
-          </section>
-          <section className="homeSection">
-            <Home></Home>
-          </section>
-          <section className="skillsSection">
-            <Skills></Skills>
-          </section>
-          <section className="projectsSection">
-            <Projects></Projects>
-          </section>
-          <section className="contactSection">
-            <Contact></Contact>
-          </section>
-    
+    <>
+      <section className="navbarSection">
+        <NavigationBar >
+        </NavigationBar>
+      </section>
+      <section className="homeSection">
+        <Home></Home>
+      </section>
+      <section className="skillsSection">
+        <Skills></Skills>
+      </section>
+      <section className="projectsSection">
+        <Projects></Projects>
+      </section>
+      <section className="contactSection">
+        <Contact></Contact>
+      </section>
+
     </>
   );
 }

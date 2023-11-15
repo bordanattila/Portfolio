@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-// import ReactDOM from "react";
+import brand from "./assets/images/brand_logo.svg";
 import "./styles/Navigation.css";
 import { Nav, Navbar, Container, Stack } from "react-bootstrap";
 
@@ -7,7 +7,7 @@ function NavigationBar() {
     return (
         <Container>
             <Navbar collapseOnSelect id="nav" fixed="top" className="navigationbar" expand="lg" >
-                <Navbar.Brand href="#home">bordán attila</Navbar.Brand>
+                <Navbar.Brand href="#home">attila bordán</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-around">
                     <Nav className="" activeKey="/home" variant="underline">

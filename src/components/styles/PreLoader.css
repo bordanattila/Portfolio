@@ -1,4 +1,4 @@
-.loader{
+.loader {
   width: 100%;
   height: 100vh;
   z-index: 10;
@@ -11,14 +11,39 @@
   align-items: center;
 }
 
-.loader svg{
+.loader svg {
   width: 100%;
 }
 
-.loading-text{
+.loading-text {
   width: 100%;
   font-weight: bold;
   color: #fff;
   transform: translate(.4rem);
   margin-top: 1rem;
+}
+
+.circle {
+  position: relative;
+  width: 508.163px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 508.163px;
+  border: 13px solid #9EDDFF;
+  background: #0E0E0E;
+  animation: drawCircle 2500ms ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+
+  @keyframes drawCircle {
+    to {
+      opacity: 1;
+    }
+  }
+
+.line1 {
+  width: 218.929px;
+  height: 5px;
+  background: #9EDDFF;
 }
