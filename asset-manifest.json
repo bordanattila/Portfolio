@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.2f66379d.css",
-    "main.js": "/Portfolio/static/js/main.3400cae8.js",
+    "main.js": "/Portfolio/static/js/main.4e920149.js",
     "static/js/787.30237536.chunk.js": "/Portfolio/static/js/787.30237536.chunk.js",
     "static/media/main_background.png": "/Portfolio/static/media/main_background.8db9869e6d872cbfb920.png",
     "static/media/techBlog-tablet.png": "/Portfolio/static/media/techBlog-tablet.580149fd994a1549bc31.png",
@@ -25,11 +25,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/brand_logo.svg": "/Portfolio/static/media/brand_logo.87d13702587898c2475d6ce724b79fbc.svg",
     "main.2f66379d.css.map": "/Portfolio/static/css/main.2f66379d.css.map",
-    "main.3400cae8.js.map": "/Portfolio/static/js/main.3400cae8.js.map",
+    "main.4e920149.js.map": "/Portfolio/static/js/main.4e920149.js.map",
     "787.30237536.chunk.js.map": "/Portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f66379d.css",
-    "static/js/main.3400cae8.js"
+    "static/js/main.4e920149.js"
   ]
 }
