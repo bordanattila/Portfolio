@@ -9,7 +9,7 @@ import NoteTaker from "./assets/images/noteTaker.png";
 import Egaugnal from "./assets/images/egaugnal.png";
 import Snake from "./assets/images/snake_game.png";
 
-import { Col, Row, Container, Figure, Card } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 function Showcase () {
     return (

@@ -58,7 +58,7 @@ function Skills() {
                         <Row className="skillText">
                             <Col>
                                 <LightSpeed duration={1500} left>
-                                    <h4><code>Louisiana State University - AWS Solution Architect</code></h4>
+                                    <h4><code><strong>BS</strong> Southern New Hampshire University - Computer Science</code></h4>
                                     <h4><code>University of Minnesota - Full Stack Web Developer</code></h4>
                                     <h4><code><strong>MS</strong> Florida Institute of Technology - Supply Chain Management</code></h4>
                                     <h4><code><strong>BA</strong> American Military University - Logistics and Transportation Management</code></h4>
