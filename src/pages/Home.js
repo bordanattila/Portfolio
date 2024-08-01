@@ -6,7 +6,7 @@ class Home extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            isDesktop: false 
+            isDesktop: false
         };
 
         this.updatePredicate = this.updatePredicate.bind(this);
@@ -30,15 +30,33 @@ class Home extends React.Component {
         return (
             <div>
                 {isDesktop ? (
-                    <div id="home">
+                    <div id="home" className="desktop-home">
                         <h1 className="homeAnchor">Home</h1>
-                        <p className="scroll-down"><a href="#complements" className="animate">More</a></p>
+                        <div class="mouse_scroll">
+                            <div class="mouse">
+                                <div class="wheel"></div>
+                            </div>
+                            <div>
+                                <span class="m_scroll_arrows one"></span>
+                                <span class="m_scroll_arrows two"></span>
+                                <span class="m_scroll_arrows three"></span>
+                            </div>
+                        </div>
                     </div>
                 ) : (
-                    <div id="mobile">
+                    <div id="mobile" className="mobile-home">
                         <h1 className="homeAnchor">Home</h1>
-                        <img className="profile_image" src={main_mobile} alt="project homepage"></img>
-                        <p className="scroll-down"><a href="#complements" className="animate">More</a></p>
+                        <img className="profile_image" src={main_mobile} alt="project homepage" />
+                        <div class="mouse_scroll">
+                            <div class="mouse">
+                                <div class="wheel"></div>
+                            </div>
+                            <div>
+                                <span class="m_scroll_arrows one"></span>
+                                <span class="m_scroll_arrows two"></span>
+                                <span class="m_scroll_arrows three"></span>
+                            </div>
+                        </div>
                     </div>
                 )
                 }

@@ -71,6 +71,16 @@
     color: #fff;
 }
 
+.skillText h4 code {
+    /* font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; */
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
 .figure {
     padding-top: 8px;
 }

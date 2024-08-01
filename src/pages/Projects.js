@@ -58,7 +58,7 @@ class Projects extends React.Component {
                                 <p>A MERN application for users who love Magic the Gathering. It allows users to create an account, manage a wishlist, build decks, and complete refined searches.</p>
                                 <p className="tech">MongoDB Express React Node Material-UI</p>
                                 <a target="_blank" href="https://github.com/bordanattila/Prima-Materia/" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
-                                <a href="https://attilamagic-app.herokuapp.com/"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a target="_blank" href="https://attilamagic-app.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </Col>
                         </Row>
                         <Row className="glowBorder">
@@ -67,7 +67,7 @@ class Projects extends React.Component {
                                 <p>This is an application where tech enthusiasts can share thoughts and comments on various topics. The application was developed following the MVC framework and utilizes Sequelize and Handlebars.js.</p>
                                 <p className="tech">Express MySQL Node Sequelize Bcrypt Handlebars</p>
                                 <a target="_blank" href="http://github.com/bordanattila/Tech_Blog" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
-                                <a href="https://tech-blog-attila.herokuapp.com/"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a target="_blank" href="https://tech-blog-attila.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </Col>
                             <Col lg={6}>
                                 <span><img className="techBlog" src={techBlog} alt="project homepage"></img></span>
@@ -82,7 +82,7 @@ class Projects extends React.Component {
                                 <p>A language learning application that follow the MVC framework. Users can learn the spelling of words in over 90 languages through the Google Translate API and the pronunciation through Google TextToSpeech API. The app was built using Handlebars, Sequelize, and MySQL.</p>
                                 <p className="tech">Express MySQL Node Sequelize Bcrypt Handlebars</p>
                                 <a target="_blank" href="https://github.com/bordanattila/egaugnal/" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
-                                <a href="https://egaugnal.herokuapp.com/"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <a target="_blank" href="https://egaugnal.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </Col>
                         </Row>
                     </Row>

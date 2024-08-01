@@ -52,10 +52,17 @@ p {
     grid-column-gap: 25px;
     grid-row-gap: 25px;
     text-align: center;
+    /* overflow: auto;
+    display: flex;
+    width: 50%;
+    padding: 20px; */
 }
 
 .project-card {
     background-image: linear-gradient(#6499E9, #232D3F);
+    /* height: 450px;
+    width: 450px; */
+
 }
 
 .projectPadding {
