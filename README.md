@@ -14,4 +14,4 @@ As a junior web developer I created an online portfolio for potential future emp
 ## Links
 
 [My GitHub Profile](https://github.com/attila)  
-[Deployed Application](https://bordanattila.github.io/React-Portfolio/)
+[Deployed Application](https://bordanattila.github.io/Portfolio/)
