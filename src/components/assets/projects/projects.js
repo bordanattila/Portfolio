@@ -32,7 +32,7 @@ const projects = [
         projectName: "Weather Dashboard",
         description: "A front-end application powered by OpenWeather API. Users can look up weather forecast for any travel destination. It uses the local storage to store the search history.",
         repo: "http://github.com/bordanattila/Weather_Dashboard",
-        deployed: "http://bordanattila.github.io/Weather_Dashboard"
+        deployed: "http://bordanattihttps://jolly-hill-0b6ce391e.5.azurestaticapps.net/la.github.io/Weather_Dashboard"
     },
     {
         imageSource: Snake_Game,

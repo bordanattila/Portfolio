@@ -51,18 +51,28 @@ p {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 25px;
     grid-row-gap: 25px;
-    text-align: center;
+    text-align: center;  
     /* overflow: auto;
     display: flex;
-    width: 50%;
-    padding: 20px; */
+    width: 50%; 
+    padding: 20px;
+    border-radius: 25px;
+    scroll-snap-type: x mandatory;
+    box-sizing: border-box;  */
 }
 
 .project-card {
-    background-image: linear-gradient(#6499E9, #232D3F);
+    /* background-image: linear-gradient(#6499E9, #232D3F); */
+    background-image: linear-gradient(#DDDBCB , #B1DDF1 );
     /* height: 450px;
-    width: 450px; */
-
+    width: 450px;
+    scroll-snap-align: start;
+    border-radius: 25px;
+    margin: 20px;  */
+    border-radius: 47px;
+background: #646262;
+box-shadow: inset 30px 30px 75px #4c4a4a,
+            inset -30px -30px 75px #7c7a7a;
 }
 
 .projectPadding {
@@ -74,6 +84,9 @@ p {
     color: #fff;
 }
 
+.fa-colour {
+    color: #000;
+}
 .title {
     color: #6499E9;
 }

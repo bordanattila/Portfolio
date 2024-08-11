@@ -32,14 +32,14 @@ class Home extends React.Component {
                 {isDesktop ? (
                     <div id="home" className="desktop-home">
                         <h1 className="homeAnchor">Home</h1>
-                        <div class="mouse_scroll">
-                            <div class="mouse">
-                                <div class="wheel"></div>
+                        <div className="mouse_scroll">
+                            <div className="mouse">
+                                <div className="wheel"></div>
                             </div>
                             <div>
-                                <span class="m_scroll_arrows one"></span>
-                                <span class="m_scroll_arrows two"></span>
-                                <span class="m_scroll_arrows three"></span>
+                                <span className="m_scroll_arrows one"></span>
+                                <span className="m_scroll_arrows two"></span>
+                                <span className="m_scroll_arrows three"></span>
                             </div>
                         </div>
                     </div>
@@ -47,14 +47,14 @@ class Home extends React.Component {
                     <div id="mobile" className="mobile-home">
                         <h1 className="homeAnchor">Home</h1>
                         <img className="profile_image" src={main_mobile} alt="project homepage" />
-                        <div class="mouse_scroll">
-                            <div class="mouse">
-                                <div class="wheel"></div>
+                        <div className="mouse_scroll">
+                            <div className="mouse">
+                                <div className="wheel"></div>
                             </div>
                             <div>
-                                <span class="m_scroll_arrows one"></span>
-                                <span class="m_scroll_arrows two"></span>
-                                <span class="m_scroll_arrows three"></span>
+                                <span className="m_scroll_arrows one"></span>
+                                <span className="m_scroll_arrows two"></span>
+                                <span className="m_scroll_arrows three"></span>
                             </div>
                         </div>
                     </div>
