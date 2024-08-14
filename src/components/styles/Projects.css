@@ -20,7 +20,7 @@ p {
     max-width: 100% !important;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
 
     .prima,
     .techBlog,
@@ -29,21 +29,50 @@ p {
         opacity: 50%;
     }
 
+    .glowBorder {
+        max-width: 100% !important;
+    }
+
     .prima:hover,
     .techBlog:hover,
     .egaugnal:hover {
         opacity: 100%;
     }
+
+    /* .projectImg {
+        width: 33dvw !important;
+        height: 40dvh !important;
+    }
+
+    .otherProjects {
+        text-align: center;  
+        width: 50dvw;
+        height: 100dvh;
+        margin: auto;
+    }
+    
+    .carousel-item{
+        height: 75dvh !important;
+        width: 100% !important;
+    } */
 }
+
+.projectImg {
+    /* width: 63dvw; */
+    width: 100%;
+}
+
+/* .carousel-item{
+    height: 100dvh;
+    width: 100%;
+} */
 
 .showcase {
     height: 500px;
     padding-top: 90px;
 }
 
-.project_img {
-    width: 100%;
-}
+
 
 .otherProjects {
     display: grid;
@@ -51,7 +80,8 @@ p {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 25px;
     grid-row-gap: 25px;
-    text-align: center;  
+    text-align: center;
+
     /* overflow: auto;
     display: flex;
     width: 50%; 
@@ -63,30 +93,32 @@ p {
 
 .project-card {
     /* background-image: linear-gradient(#6499E9, #232D3F); */
-    background-image: linear-gradient(#DDDBCB , #B1DDF1 );
+    background-image: linear-gradient(#DDDBCB, #B1DDF1);
     /* height: 450px;
     width: 450px;
     scroll-snap-align: start;
     border-radius: 25px;
     margin: 20px;  */
     border-radius: 47px;
-background: #646262;
-box-shadow: inset 30px 30px 75px #4c4a4a,
-            inset -30px -30px 75px #7c7a7a;
+    background: #646262;
+    box-shadow: inset 30px 30px 75px #4c4a4a,
+        inset -30px -30px 75px #7c7a7a;
 }
 
 .projectPadding {
     padding: 10px;
 }
 
-.projectName {
+.projectName,
+.projectDescription {
     font-size: 1em;
-    color: #fff;
+    color: #f1683a;
 }
 
 .fa-colour {
     color: #000;
 }
+
 .title {
     color: #6499E9;
 }
@@ -96,7 +128,7 @@ box-shadow: inset 30px 30px 75px #4c4a4a,
 }
 
 .glowBorder {
-    padding: 0.6em 2em;
+    padding: 0.6em 0;
     margin: 10px 0;
     border: none;
     outline: none;
@@ -106,6 +138,7 @@ box-shadow: inset 30px 30px 75px #4c4a4a,
     position: relative;
     z-index: 0;
     border-radius: 10px;
+    max-width: 90dvw;
 }
 
 .glowBorder:before {

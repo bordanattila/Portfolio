@@ -87,11 +87,9 @@ class Projects extends React.Component {
                         </Row>
                     </Row>
                     <h1 className="anchor projects">Other Projects</h1>
-                    <div className="otherProjects">
-                        {projects.map((project, index) => (
-                            <Project key={index} project={project} />
-                        ))}
-                    </div>
+                    {/* <div className="otherProjects"> */}
+                        <Project projects={projects} />
+                    {/* </div> */}
                 </Container>
             </div>
         );

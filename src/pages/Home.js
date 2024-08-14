@@ -44,7 +44,7 @@ class Home extends React.Component {
                         </div>
                     </div>
                 ) : (
-                    <div id="mobile" className="mobile-home">
+                    <div id="home" className="mobile-home">
                         <h1 className="homeAnchor">Home</h1>
                         <img className="profile_image" src={main_mobile} alt="project homepage" />
                         <div className="mouse_scroll">

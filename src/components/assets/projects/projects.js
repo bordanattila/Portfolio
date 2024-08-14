@@ -9,7 +9,7 @@ const projects = [
     {
         imageSource: Text_Editor,
         projectName: "PWA Text Editor",
-        description: "A Progressive Web Application (PWA) that help users to jot down any ideas or code snippets at any time. It works online and offline and can be installed using chromium based browsers. It colour codes the text like an IDE. the app was built using Webpack and Workbox.",
+        description: "A Progressive Web Application (PWA) that help users to jot down any ideas or code snippets at any time. It colour codes the text like an IDE. The app was built using Webpack and Workbox.",
         repo: "http://github.com/bordanattila/Text_Editor",
         deployed: "https://attilatexteditor-app.herokuapp.com/"
     },
@@ -32,7 +32,7 @@ const projects = [
         projectName: "Weather Dashboard",
         description: "A front-end application powered by OpenWeather API. Users can look up weather forecast for any travel destination. It uses the local storage to store the search history.",
         repo: "http://github.com/bordanattila/Weather_Dashboard",
-        deployed: "http://bordanattihttps://jolly-hill-0b6ce391e.5.azurestaticapps.net/la.github.io/Weather_Dashboard"
+        deployed: "https://jolly-hill-0b6ce391e.5.azurestaticapps.net/"
     },
     {
         imageSource: Snake_Game,
