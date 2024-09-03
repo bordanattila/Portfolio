@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.88e538ba.css",
-    "main.js": "/Portfolio/static/js/main.d9ea8fe8.js",
+    "main.css": "/Portfolio/static/css/main.59af73ca.css",
+    "main.js": "/Portfolio/static/js/main.cc326a93.js",
     "static/js/787.30237536.chunk.js": "/Portfolio/static/js/787.30237536.chunk.js",
     "static/media/main_background.png": "/Portfolio/static/media/main_background.8db9869e6d872cbfb920.png",
     "static/media/techBlog-tablet.png": "/Portfolio/static/media/techBlog-tablet.580149fd994a1549bc31.png",
@@ -10,6 +10,7 @@
     "static/media/main_background_mobile.png": "/Portfolio/static/media/main_background_mobile.32ff310d01381b100edd.png",
     "static/media/primaMateria.png": "/Portfolio/static/media/primaMateria.cb5e39bb13840e532ec4.png",
     "static/media/prima-materia-home.png": "/Portfolio/static/media/prima-materia-home.7bedbd6857e6a14e7b79.png",
+    "static/media/masktest1.jpg": "/Portfolio/static/media/masktest1.5521048fa1c3f7efd286.jpg",
     "static/media/egaugnal-mobile.png": "/Portfolio/static/media/egaugnal-mobile.79a5a053af2eebda1088.png",
     "static/media/weatherDashboard.png": "/Portfolio/static/media/weatherDashboard.b387a5c11690a5a64596.png",
     "static/media/textEditor.png": "/Portfolio/static/media/textEditor.84a5f8e73f81fe9acad9.png",
@@ -24,12 +25,12 @@
     "static/media/education.svg": "/Portfolio/static/media/education.9748ed801edc0216f0cdec193ce29b32.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/brand_logo.svg": "/Portfolio/static/media/brand_logo.87d13702587898c2475d6ce724b79fbc.svg",
-    "main.88e538ba.css.map": "/Portfolio/static/css/main.88e538ba.css.map",
-    "main.d9ea8fe8.js.map": "/Portfolio/static/js/main.d9ea8fe8.js.map",
+    "main.59af73ca.css.map": "/Portfolio/static/css/main.59af73ca.css.map",
+    "main.cc326a93.js.map": "/Portfolio/static/js/main.cc326a93.js.map",
     "787.30237536.chunk.js.map": "/Portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88e538ba.css",
-    "static/js/main.d9ea8fe8.js"
+    "static/css/main.59af73ca.css",
+    "static/js/main.cc326a93.js"
   ]
 }
