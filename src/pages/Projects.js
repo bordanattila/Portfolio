@@ -2,7 +2,7 @@ import React from "react";
 import "../components/styles/Projects.css";
 import prima from "../components/assets/images/primaMateria.png";
 import techBlog from "../components/assets/images/techBlog-tablet.png";
-import EgaugnalMobile from "../components/assets/images/egaugnal-mobile.png";
+import EventHorizon from "../components/assets/images/eventHorizon.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Showcase from "../components/Carousel";
 import Project from "../components/Project";
@@ -51,14 +51,14 @@ class Projects extends React.Component {
                     <Row className=" justify-content-center">
                         <Row className="glowBorder">
                             <Col lg={6} >
-                                <span><img className="prima" src={prima} alt="project homepage"></img></span>
+                                <span><img className="prima" src={EventHorizon} alt="project homepage"></img></span>
                             </Col>
                             <Col lg={6}>
-                                <p className="title">Prima Materia</p>
-                                <p>A MERN application for users who love Magic the Gathering. It allows users to create an account, manage a wishlist, build decks, and complete refined searches.</p>
-                                <p className="tech">MongoDB Express React Node Material-UI</p>
-                                <a target="_blank" href="https://github.com/bordanattila/Prima_Materia" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
-                                <a target="_blank" href="https://primamateria-0bdc13b2869a.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <p className="title">EventHorizon</p>
+                                <p>EventHorizon is a web application that allows users to browse events around the world and register for them if interested. The platform provides an intuitive interface to explore various events and manage registrations effortlessly.</p>
+                                <p className="tech">Next.js Typescript MongoDB</p>
+                                <a target="_blank" href="https://github.com/bordanattila/EventHorizon" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
+                                <a target="_blank" href="https://event-horizon-sepia.vercel.app/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </Col>
                         </Row>
                         <Row className="glowBorder">
@@ -74,15 +74,15 @@ class Projects extends React.Component {
                             </Col>
                         </Row>
                         <Row className="glowBorder">
-                            <Col lg={6}>
-                                <span><img className="egaugnal iphone" src={EgaugnalMobile} alt="project homepage"></img></span>
+                        <Col lg={6} >
+                                <span><img className="prima" src={prima} alt="project homepage"></img></span>
                             </Col>
                             <Col lg={6}>
-                                <p className="title">Egaugnal</p>
-                                <p>A language learning application that follow the MVC framework. Users can learn the spelling of words in over 90 languages through the Google Translate API and the pronunciation through Google TextToSpeech API. The app was built using Handlebars, Sequelize, and MySQL.</p>
-                                <p className="tech">Express MySQL Node Sequelize Bcrypt Handlebars</p>
-                                <a target="_blank" href="https://github.com/bordanattila/egaugnal/" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
-                                <a target="_blank" href="https://egaugnal-aa2610d6ebf3.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <p className="title">Prima Materia</p>
+                                <p>A MERN application for users who love Magic the Gathering. It allows users to create an account, manage a wishlist, build decks, and complete refined searches.</p>
+                                <p className="tech">MongoDB Express React Node Material-UI</p>
+                                <a target="_blank" href="https://github.com/bordanattila/Prima_Materia" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
+                                <a target="_blank" href="https://primamateria-0bdc13b2869a.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </Col>
                         </Row>
                     </Row>

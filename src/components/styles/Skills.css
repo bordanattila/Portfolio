@@ -1,7 +1,7 @@
 .about {
     text-align: center;
     padding-bottom: 10px;
-    color: #9EDDFF;
+    color: #5DADE2;
 }
 
 .skills {
@@ -9,7 +9,7 @@
     padding: 0 5px;
 }
 #skills {
-    padding: 15px 0;
+    padding-top: 15px;
 }
 
 .fa-cloud-arrow-down {

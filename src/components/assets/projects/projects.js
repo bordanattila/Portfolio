@@ -4,8 +4,16 @@ import Work_Day_Scheduler from "../images/workDayScheduler.png";
 import Note_Taker from "../images/noteTaker.png";
 import Text_Editor from "../images/textEditor.png";
 import Snake_Game from "../images/snake_game.png";
+import Egaugnal from "../images/egaugnal.png";
 
 const projects = [
+    {
+        imageSource: Egaugnal,
+        projectName: "Egaugnal",
+        description: "A language learning application that follow the MVC framework. Users can learn the spelling of words in over 90 languages through the Google Translate API and the pronunciation through Google TextToSpeech API. The app was built using Handlebars, Sequelize, and MySQL.",
+        repo: "https://github.com/bordanattila/egaugnal/",
+        deployed: "https://egaugnal-aa2610d6ebf3.herokuapp.com/"
+    },
     {
         imageSource: Text_Editor,
         projectName: "PWA Text Editor",

@@ -8,7 +8,7 @@ h1, h2, h3 {
 }
 
 .contactAnchor {
-    color: #9EDDFF;
+    color: #5DADE2;
 }
 
 .contacth2, .contacth3, .copyright {
@@ -46,7 +46,7 @@ h1, h2, h3 {
 }
 
 /* email button */
-.btn-hover {
+/* .btn-hover {
     width: 160px;
     font-size: 16px;
     font-weight: 600;
@@ -85,4 +85,26 @@ h1, h2, h3 {
       #3f86ed
     );
     box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  } */
+
+  .btn-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    background-color: #1E90FF; /* Neon Blue */
+    color: white;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-hover:hover {
+    background-color: #0073E6; /* Darker shade of blue */
+    transform: scale(1.05);
+    color: black;
   }

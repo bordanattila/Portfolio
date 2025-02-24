@@ -4,7 +4,7 @@ import BackEndImg from "../components/assets/images/backend.svg";
 import DevToolImg from "../components/assets/images/devtool.svg";
 import AboutMeImg from "../components/assets/images/aboutme.svg";
 import Education from "../components/assets/images/education.svg";
-import resumePDF from "../components/assets/resume/Attila_Bordan_resume.pdf";
+import resumePDF from "../components/assets/resume/AttilaBordanResume.pdf";
 import "../components/styles/Skills.css";
 import { Col, Row, Container, Figure, Tooltip, OverlayTrigger } from "react-bootstrap";
 import { LightSpeed } from "react-reveal";
@@ -36,7 +36,7 @@ function Skills() {
                                     <h4><code>I enjoy collaborating and connecting with co-workers.</code></h4>
                                     <h4><code>Looking to bring my passion and technical skills to any exciting project.</code></h4>
                                     <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Download Resume</Tooltip>}>
-                                    <a href={resumePDF} download="../components/assets/resume/Attila_Bordan_Resume.pdf" target='_blank'>
+                                    <a href={resumePDF} download="../components/assets/resume/Attila_Bordan_Resume.pdf" target='_blank' rel="noreferrer" >
                                     <i class="fa-solid fa-cloud-arrow-down"></i>
                                     </a>
                                     </OverlayTrigger>
@@ -85,7 +85,7 @@ function Skills() {
                                     <h4><code>CSS</code></h4>
                                     <h4><code>JavaScript</code></h4>
                                     <h4><code>Bootstrap</code></h4>
-                                    <h4><code>Material-UI</code></h4>
+                                    <h4><code>Typescript</code></h4>
                                     <h4><code>JavaScript</code></h4>
                                 </LightSpeed>
                             </Col>
@@ -130,7 +130,7 @@ function Skills() {
                                     <h4><code>MongoDB</code></h4>
                                     <h4><code>PHP</code></h4>
                                     <h4><code>Python</code></h4>
-                                    <h4><code>Motoku</code></h4>
+                                    <h4><code>Java</code></h4>
                                 </LightSpeed>
                             </Col>
                         </Row>
