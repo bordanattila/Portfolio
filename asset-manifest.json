@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.59af73ca.css",
-    "main.js": "/Portfolio/static/js/main.cc326a93.js",
+    "main.css": "/Portfolio/static/css/main.0d379a39.css",
+    "main.js": "/Portfolio/static/js/main.53dc8209.js",
     "static/js/787.30237536.chunk.js": "/Portfolio/static/js/787.30237536.chunk.js",
     "static/media/main_background.png": "/Portfolio/static/media/main_background.8db9869e6d872cbfb920.png",
     "static/media/techBlog-tablet.png": "/Portfolio/static/media/techBlog-tablet.580149fd994a1549bc31.png",
@@ -10,12 +10,11 @@
     "static/media/main_background_mobile.png": "/Portfolio/static/media/main_background_mobile.32ff310d01381b100edd.png",
     "static/media/primaMateria.png": "/Portfolio/static/media/primaMateria.cb5e39bb13840e532ec4.png",
     "static/media/prima-materia-home.png": "/Portfolio/static/media/prima-materia-home.7bedbd6857e6a14e7b79.png",
-    "static/media/masktest1.jpg": "/Portfolio/static/media/masktest1.5521048fa1c3f7efd286.jpg",
-    "static/media/egaugnal-mobile.png": "/Portfolio/static/media/egaugnal-mobile.79a5a053af2eebda1088.png",
+    "static/media/eventHorizon.png": "/Portfolio/static/media/eventHorizon.cb9c374dfe6f962351ce.png",
     "static/media/weatherDashboard.png": "/Portfolio/static/media/weatherDashboard.b387a5c11690a5a64596.png",
     "static/media/textEditor.png": "/Portfolio/static/media/textEditor.84a5f8e73f81fe9acad9.png",
     "static/media/workDayScheduler.png": "/Portfolio/static/media/workDayScheduler.96791fba2e031085d26c.png",
-    "static/media/Attila_Bordan_resume.pdf": "/Portfolio/static/media/Attila_Bordan_resume.11f0040d5b1ea22a5cc5.pdf",
+    "static/media/AttilaBordanResume.pdf": "/Portfolio/static/media/AttilaBordanResume.87c9d8a57d0edec57521.pdf",
     "static/media/snake_game.png": "/Portfolio/static/media/snake_game.ca2c2b4fca0a17b2d178.png",
     "static/media/noteTaker.png": "/Portfolio/static/media/noteTaker.c046ade716a1d68c50ac.png",
     "static/media/frontend.svg": "/Portfolio/static/media/frontend.39a8ab62041215d048ba853052954ad1.svg",
@@ -25,12 +24,12 @@
     "static/media/education.svg": "/Portfolio/static/media/education.9748ed801edc0216f0cdec193ce29b32.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/brand_logo.svg": "/Portfolio/static/media/brand_logo.87d13702587898c2475d6ce724b79fbc.svg",
-    "main.59af73ca.css.map": "/Portfolio/static/css/main.59af73ca.css.map",
-    "main.cc326a93.js.map": "/Portfolio/static/js/main.cc326a93.js.map",
+    "main.0d379a39.css.map": "/Portfolio/static/css/main.0d379a39.css.map",
+    "main.53dc8209.js.map": "/Portfolio/static/js/main.53dc8209.js.map",
     "787.30237536.chunk.js.map": "/Portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59af73ca.css",
-    "static/js/main.cc326a93.js"
+    "static/css/main.0d379a39.css",
+    "static/js/main.53dc8209.js"
   ]
 }
