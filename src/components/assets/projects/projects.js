@@ -5,8 +5,16 @@ import Note_Taker from "../images/noteTaker.png";
 import Text_Editor from "../images/textEditor.png";
 import Snake_Game from "../images/snake_game.png";
 import Egaugnal from "../images/egaugnal.png";
+import PrimaMateria from "../images/prima-materia-home.png"
 
 const projects = [
+    {
+        imageSource: PrimaMateria,
+        projectName: "Prima Materia",
+        description: "A MERN application for users who love Magic the Gathering. It allows users to create an account, manage a wishlist, build decks, and complete refined searches. The application was built with MongoDB Express React Node Material-UI",
+        repo: "https://github.com/bordanattila/Prima_Materia",
+        deployed: "https://primamateria-0bdc13b2869a.herokuapp.com/"
+    },
     {
         imageSource: Egaugnal,
         projectName: "Egaugnal",

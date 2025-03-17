@@ -14,17 +14,13 @@ p {
     padding-bottom: 50px;
 }
 
-.prima,
-.techBlog,
-.egaugnal {
+.featured {
     max-width: 100% !important;
 }
 
 @media screen and (min-width: 992px) {
 
-    .prima,
-    .techBlog,
-    .egaugnal {
+    .featured {
         max-width: 100% !important;
         opacity: 50%;
     }
@@ -33,9 +29,7 @@ p {
         max-width: 100% !important;
     }
 
-    .prima:hover,
-    .techBlog:hover,
-    .egaugnal:hover {
+    .featured:hover {
         opacity: 100%;
     }
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/styles/Projects.css";
-import prima from "../components/assets/images/primaMateria.png";
+import NutriPal from "../components/assets/images/NutriPal.png";
 import techBlog from "../components/assets/images/techBlog-tablet.png";
 import EventHorizon from "../components/assets/images/eventHorizon.png";
 import { Container, Row, Col } from "react-bootstrap";
@@ -50,8 +50,20 @@ class Projects extends React.Component {
                 <Container>
                     <Row className=" justify-content-center">
                         <Row className="glowBorder">
+                        <Col lg={6} >
+                                <span><img className="featured" src={NutriPal} alt="project homepage"></img></span>
+                            </Col>
+                            <Col lg={6}>
+                                <p className="title">NutriPal</p>
+                                <p>A MERN application built to track nutrition. This app enables users to effortlessly log their daily food intake by scanning product barcodes or searching by name. Users can review their current and previous day's logs, and save recipes for streamlined tracking.</p>
+                                <p className="tech">MongoDB Express React Node Tailwind CSS Apollo GraphQL jwt Luxon ky Axios Chart.js Quagga2 Azure</p>
+                                <a target="_blank" href="https://github.com/bordanattila/NutriPal" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
+                                <a target="_blank" href="https://nutripal-hbcff5htezbqdwe9.canadacentral-01.azurewebsites.net" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </Col>
+                        </Row>
+                        <Row className="glowBorder">
                             <Col lg={6} >
-                                <span><img className="prima" src={EventHorizon} alt="project homepage"></img></span>
+                                <span><img className="featured" src={EventHorizon} alt="project homepage"></img></span>
                             </Col>
                             <Col lg={6}>
                                 <p className="title">EventHorizon</p>
@@ -70,19 +82,7 @@ class Projects extends React.Component {
                                 <a target="_blank" href="https://tech-blog-e9b8389da074.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </Col>
                             <Col lg={6}>
-                                <span><img className="techBlog" src={techBlog} alt="project homepage"></img></span>
-                            </Col>
-                        </Row>
-                        <Row className="glowBorder">
-                        <Col lg={6} >
-                                <span><img className="prima" src={prima} alt="project homepage"></img></span>
-                            </Col>
-                            <Col lg={6}>
-                                <p className="title">Prima Materia</p>
-                                <p>A MERN application for users who love Magic the Gathering. It allows users to create an account, manage a wishlist, build decks, and complete refined searches.</p>
-                                <p className="tech">MongoDB Express React Node Material-UI</p>
-                                <a target="_blank" href="https://github.com/bordanattila/Prima_Materia" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
-                                <a target="_blank" href="https://primamateria-0bdc13b2869a.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <span><img className="featured" src={techBlog} alt="project homepage"></img></span>
                             </Col>
                         </Row>
                     </Row>
