@@ -50,23 +50,23 @@
 
 
 .mouse_scroll {
+  position: absolute;
 	display: flex;
   flex-direction: column;
-  align-content: flex-end;
-	margin: -50px auto 0 auto;
+  align-content: center;
 	width: 24px;
 	height: 100px;
-  left: 12rem;
-  bottom: 4rem;
-  position: absolute;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
   z-index: 10;
 }
 
 @media (min-width:1024px) { 
   .mouse_scroll {
     bottom: 4rem;
-    left: 60rem;
-    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .profile_image {
     object-fit: cover;

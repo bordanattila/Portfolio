@@ -4,7 +4,7 @@ import BackEndImg from "../components/assets/images/backend.svg";
 import DevToolImg from "../components/assets/images/devtool.svg";
 import AboutMeImg from "../components/assets/images/aboutme.svg";
 import Education from "../components/assets/images/education.svg";
-import resumePDF from "../components/assets/resume/AttilaBordanResume.pdf";
+import resumePDF from "../components/assets/resume/Attila_Bordan_Resume.pdf";
 import "../components/styles/Skills.css";
 import { Col, Row, Container, Figure, Tooltip, OverlayTrigger } from "react-bootstrap";
 import { LightSpeed } from "react-reveal";
@@ -31,10 +31,10 @@ function Skills() {
                         <Row className="skillText">
                             <Col>
                                 <LightSpeed duration={1500} left >
-                                    <h4><code>I'm passionate about building user friendly and beautiful applications.</code></h4>
-                                    <h4><code>Having an appetite for continuous learning and problem solving.</code></h4>
-                                    <h4><code>I enjoy collaborating and connecting with co-workers.</code></h4>
-                                    <h4><code>Looking to bring my passion and technical skills to any exciting project.</code></h4>
+                                    <h4><code>I'm a dedicated software developer with a passion for creating intuitive, user-friendly applications that combine aesthetic appeal with functional design. </code></h4>
+                                    <h4><code>I thrive in collaborative environments where innovative ideas and technical problem-solving come together to build impactful solutions.</code></h4>
+                                    <h4><code>Committed to continuous learning, I’m always seeking opportunities to grow and contribute to forward-thinking teams.</code></h4>
+                                    <h4><code>I’m eager to bring both my technical skills and enthusiasm for excellence to meaningful, dynamic projects.</code></h4>
                                     <OverlayTrigger overlay={<Tooltip id="tooltip-disabled">Download Resume</Tooltip>}>
                                     <a href={resumePDF} download="../components/assets/resume/Attila_Bordan_Resume.pdf" target='_blank' rel="noreferrer" >
                                     <i class="fa-solid fa-cloud-arrow-down"></i>
