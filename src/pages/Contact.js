@@ -7,34 +7,57 @@ const year = currentDate.getFullYear();
 
 function Contact() {
     return (
-<>
-
-        <div id="contact">
-            <h1 className="contactAnchor">Get In Touch</h1>
-            <div className="footerList">
-                <h2 className="contacth2">You can reach me via 📧 </h2>
-                <a href="mailto:bordanattila007@gmail.com"><button class="btn-hover btn">Say Hi</button></a>
-                <h3 className="contacth3">Here are some links if you would like to get social</h3>
-                {/* <ul className="footerList">
-                    <li> */}
-                    {/* <Col>
-                    <Row> */}
-                        <a target="_blank" href="https://github.com/bordanattila" className="github footerIcon" rel="noreferrer"><i className="fa-brands fa-github"></i></a>
-                    {/* </li>
-                    <li> */}
-                        <a target="_blank" href="https://www.linkedin.com/in/attila-bord%C3%A1n-7621a941/" className="linkedin footerIcon" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
-                    {/* </li>
-                    <li> */}
-                        <a target="_blank" href="https://www.facebook.com/attila.bordan.7" className="facebook footerIcon" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
-                    {/* </li>
-                </ul> */}
-                {/* </Row>
-                </Col> */}
+        <>
+          <section id="contact" className="contact-section">
+            <h1 className="contactAnchor">Let’s Connect</h1>
+            <p className="contact-subtitle">You’ve made it this far — might as well say hi 😄</p>
+    
+            <a href="mailto:bordan_attila@outlook.com" className="email-link">
+              <button className="btn-hover btn contact-btn">
+                📬 Drop Me a Line
+              </button>
+            </a>
+    
+            <p className="contact-social-text">Or find me wandering the wastelands of the internet:</p>
+    
+            <div className="contact-icons">
+              <a
+                href="https://github.com/bordanattila"
+                target="_blank"
+                rel="noreferrer"
+                className="footerIcon github"
+                title="GitHub"
+              >
+                <i className="fa-brands fa-github"></i>
+              </a>
+    
+              <a
+                href="https://www.linkedin.com/in/bordanattila/"
+                target="_blank"
+                rel="noreferrer"
+                className="footerIcon linkedin"
+                title="LinkedIn"
+              >
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+    
+              <a
+                href="https://www.facebook.com/attila.bordan.7"
+                target="_blank"
+                rel="noreferrer"
+                className="footerIcon facebook"
+                title="Facebook"
+              >
+                <i className="fa-brands fa-facebook"></i>
+              </a>
             </div>
-        </div>
-                <span className="copyright">© {year} Attila Bordán</span>
-</>
-    );
+          </section>
+    
+          <footer>
+            <span className="copyright">© {year} Attila Bordán</span>
+          </footer>
+        </>
+      );
 }
 
 export default Contact;
