@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.334a3cf7.css",
-    "main.js": "/Portfolio/static/js/main.0734b277.js",
+    "main.css": "/Portfolio/static/css/main.075b42b1.css",
+    "main.js": "/Portfolio/static/js/main.d7d29007.js",
     "static/js/787.30237536.chunk.js": "/Portfolio/static/js/787.30237536.chunk.js",
-    "static/media/techBlog-tablet.png": "/Portfolio/static/media/techBlog-tablet.580149fd994a1549bc31.png",
     "static/media/egaugnal.png": "/Portfolio/static/media/egaugnal.e5427d178ac60d583bee.png",
     "static/media/techBlog.png": "/Portfolio/static/media/techBlog.c1513d0545f8d07a6f15.png",
-    "static/media/background.png": "/Portfolio/static/media/background.7aec0bd0ed822643987c.png",
+    "static/media/background_new.png": "/Portfolio/static/media/background_new.a9c7006e89ba74ae108a.png",
+    "static/media/background_mobile_new.png": "/Portfolio/static/media/background_mobile_new.b48a74c1eba7cddc904c.png",
     "static/media/prima-materia-home.png": "/Portfolio/static/media/prima-materia-home.7bedbd6857e6a14e7b79.png",
-    "static/media/background_mobile.png": "/Portfolio/static/media/background_mobile.b328331b1d97e5a8fe00.png",
     "static/media/NutriPal2.png": "/Portfolio/static/media/NutriPal2.1bec3df80cd2906b84ee.png",
     "static/media/eventHorizon.png": "/Portfolio/static/media/eventHorizon.cb9c374dfe6f962351ce.png",
+    "static/media/calendar.png": "/Portfolio/static/media/calendar.927a1b76ea6ad9152016.png",
     "static/media/weatherDashboard.png": "/Portfolio/static/media/weatherDashboard.b387a5c11690a5a64596.png",
     "static/media/Attila_Bordan_Resume.pdf": "/Portfolio/static/media/Attila_Bordan_Resume.0352694e5a5c85830c79.pdf",
     "static/media/textEditor.png": "/Portfolio/static/media/textEditor.84a5f8e73f81fe9acad9.png",
@@ -24,12 +24,12 @@
     "static/media/education.svg": "/Portfolio/static/media/education.9748ed801edc0216f0cdec193ce29b32.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/brand_logo.svg": "/Portfolio/static/media/brand_logo.87d13702587898c2475d6ce724b79fbc.svg",
-    "main.334a3cf7.css.map": "/Portfolio/static/css/main.334a3cf7.css.map",
-    "main.0734b277.js.map": "/Portfolio/static/js/main.0734b277.js.map",
+    "main.075b42b1.css.map": "/Portfolio/static/css/main.075b42b1.css.map",
+    "main.d7d29007.js.map": "/Portfolio/static/js/main.d7d29007.js.map",
     "787.30237536.chunk.js.map": "/Portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.334a3cf7.css",
-    "static/js/main.0734b277.js"
+    "static/css/main.075b42b1.css",
+    "static/js/main.d7d29007.js"
   ]
 }
