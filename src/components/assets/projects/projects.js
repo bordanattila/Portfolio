@@ -6,8 +6,16 @@ import Text_Editor from "../images/textEditor.png";
 import Snake_Game from "../images/snake_game.png";
 import Egaugnal from "../images/egaugnal.png";
 import PrimaMateria from "../images/prima-materia-home.png"
+import TechBlog from "../images/techBlog.png"
 
 const projects = [
+    {
+        imageSource: TechBlog,
+        projectName: "TechBlog",
+        description: "This is an application where tech enthusiasts can share thoughts and comments on various topics. The application was developed following the MVC framework and utilizes Sequelize and Handlebars.js.",
+        repo: "https://github.com/bordanattila/TechBlog",
+        deployed: "https://tech-blog-e9b8389da074.herokuapp.com/"
+    },
     {
         imageSource: PrimaMateria,
         projectName: "Prima Materia",

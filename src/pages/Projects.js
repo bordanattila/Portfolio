@@ -1,7 +1,7 @@
 import React from "react";
 import "../components/styles/Projects.css";
 import NutriPal from "../components/assets/images/NutriPal2.png";
-import techBlog from "../components/assets/images/techBlog-tablet.png";
+import EventCalendar from "../components/assets/images/calendar.png";
 import EventHorizon from "../components/assets/images/eventHorizon.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Showcase from "../components/Carousel";
@@ -75,14 +75,14 @@ class Projects extends React.Component {
                         </Row>
                         <Row className="glowBorder">
                             <Col lg={6}>
-                                <span><img className="featured" src={techBlog} alt="project homepage"></img></span>
+                                <span><img className="featured" src={EventCalendar} alt="project homepage"></img></span>
                             </Col>
                             <Col lg={6}>
-                                <p className="title">Tech Blog</p>
-                                <p>This is an application where tech enthusiasts can share thoughts and comments on various topics. The application was developed following the MVC framework and utilizes Sequelize and Handlebars.js.</p>
-                                <p className="tech">Express, MySQL, Node, Sequelize, Bcrypt, Handlebars,</p>
-                                <a target="_blank" href="https://github.com/bordanattila/TechBlog" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
-                                <a target="_blank" href="https://tech-blog-e9b8389da074.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <p className="title">EventCalendar</p>
+                                <p>A Raspberry Pi-powered family calendar application with touchscreen support, designed to manage recurring events, theme customization, and offline access for a shared household schedule.</p>
+                                <p className="tech">Python, Kivy, SQLite, psutil, Raspberry Pi OS</p>
+                                <a target="_blank" href="https://github.com/bordanattila/EventCalendar" rel="noreferrer" className="github footerIcon"><i className="fa-brands fa-github"></i></a>
+                                {/* <a target="_blank" href="https://tech-blog-e9b8389da074.herokuapp.com/" rel="noreferrer"><i className="fa-solid fa-arrow-up-right-from-square"></i></a> */}
                             </Col>
                         </Row>
                     </Row>

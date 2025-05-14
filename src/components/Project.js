@@ -16,7 +16,7 @@ const Project = ({ projects }) => {
             {project.deployed === "Not deployed" ? <span className="projectPadding">Not deployed</span> : <a href={project.deployed} target={"_blank"} rel="noreferrer" className="footerIcon"><i className="fa-solid fa-arrow-up-right-from-square fa-colour"></i></a>}
         </div>
         </div>
-        ))};
+        ))}
         </div>
     );
 }

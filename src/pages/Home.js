@@ -1,9 +1,7 @@
 import React from "react";
 import "../components/styles/Home.css"
-import main_mobile from "../components/assets/images/background_mobile.png"
-import main_background from "../components/assets/images/background.png"
-// import main_mobile from "../components/assets/images/main_background_mobile.png"
-// import main_background from "../components/assets/images/main_background.png"
+import main_mobile from "../components/assets/images/background_mobile_new.png"
+import main_background from "../components/assets/images/background_new.png"
 
 class Home extends React.Component {
     constructor(props) {
@@ -65,6 +63,7 @@ class Home extends React.Component {
                 )
                 }
             </div>
+            
         );
     }
 }
